@@ -3,12 +3,10 @@
 import React from "react";
 import Task from './Todo';
 
-// const TodoList = props => {
+
 class TodoList extends React.Component {
 
-  // constructor(props){
-  //   super(props);
-  // }
+  // Constructor not needed, but why?
 
   clearCompleted = (e) => {
     e.preventDefault();
