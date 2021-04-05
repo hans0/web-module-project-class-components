@@ -31,7 +31,30 @@
   text-decoration: line-through;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+form > input {
+  background-color: white;
+}
+
+input::placeholder {
+  color: #009900;
+  opacity: 1;
+}
+
 button {
-  background-color: green;
+  background-color:#009900;
+  border: 1px solid #009900;
   color: white;
+  font-size: 16px;
+  padding: 6px 14px;
 }
