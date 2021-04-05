@@ -1,0 +1,37 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0 36px;
+  max-width: 665px;
+  margin: 0 auto;
+}
+
+.todo-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.todo {
+  background-color: black;
+  color: white;
+  width: 45%;
+  text-align: left;
+  margin: 4px 0;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.todo.completed {
+  background-color: grey;
+  text-decoration: line-through;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
